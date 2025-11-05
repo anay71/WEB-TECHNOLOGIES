@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <form action="" method="POST">
+            <h1>PATIENT REGISTRATION FORM</h1>
+            <fieldset>
+                <legend>Patient Details</legend>
+                <label for="pname">Patient's Name:</label>
+                <input type="text" id="pname" name="pname">
+                <br>
+                <br>               <label for="date">Date of Birth : </label>
+                <input type="date" id="date" name="date">
+                <br>
+                <br>
+                <label for="age">Age :</label>
+                <input type="number" id="age" name="age">
+                <br>
+                <br>
+                <label for="">Blood Group :</label>
+                <select id="" name="">
+                    <option id="op1">Select blood group</option>
+                    <option id="op2" value="A+">A+</option>
+                    <option id="op3" value="A-">A-</option>
+                    <option id="op4" value="B+">B+</option>
+                    <option id="op5" value="B-">B-</option>
+                    <option id="op6" value="O+">O+</option>
+                    <option id="op4" value="O-">O-</option>
+                </select>
+                <br>
+                <br>
+                <label for="gender">Gender :</label>
+                <input type="radio" id="r1" name="gender" value="Male">Male
+                <input type="radio" id="r2" name="gender" value="Female">Female
+                <input type="radio" id="r3" name="gender" value="Others">Other
+                <br>
+                <br>
+                <label for="cnumber">Contact Number :</label>
+                <input type="text" id="cnumber" name="cnumber" placeholder="01xxxxxxxxx">
+                <br>
+                <br>
+                <label for="address">Address :</label>
+                <br>
+                <textarea name="tx1" id="" cols="50" rows="3" placeholder="Enter your current address here..."></textarea>
+                <br>
+                <br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Diseases Detail :</legend>
+                
+                <label for="diseasesDescription">Diseases Description :</label>
+                <br>
+                <textarea name="tx2" id="" cols="50" rows="3" placeholder="Enter the brief description of your diseases here......"></textarea>
+                <br>
+                <br>
+                <label for="report">Add Medical Reports (if have any) :</label>
+                <input type="file" id="report" name="report">
+                <br>
+                <br>
+                <label for="mhistory">Medical History (if have any) :</label>
+                <br>
+                <textarea name="tx3" id="mhistory" cols="50" rows="3" placeholder="Enter your previous history if you have any......"></textarea>
+                <br>
+                <br>
+                <label for="doctorname">Recommended Doctor's Name :</label>
+                <input type="text" id="doctorname" name="doctorname">
+                <br>
+                <br>
+                <label for="referece">Refered by  (if have any) :</label>
+                <input type="text" id="reference" name="reference" placeholder="(optional)">
+                
+            </fieldset>
+            
+            <fieldset>
+                <legend>Appoinment Details :</legend>
+                <label for="visitdate">Interested visit date :</label>
+                <input type="date" id="visitdate" name="visitdate">
+
+            </fieldset>
+            <br>
+            <input type="submit" id="submit" name="submit" value="submit" >
+
+        </form>
+    </body>
+</html>

@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Admission Form</title>
+        <meta charset="UTF-8">
+        <meta name="author name" content="Anay Sarker">
+        <meta name="description" content="University Admission Form">
+        <meta name="keyword" content="University, Admission,Form">
+    </head>
+    <body>
+        <header> 
+                 <h1>University Admission Form</h1>       
+        </header>
+        <main>
+            <form method="POST">
+                <fieldset>
+                    <legend>Personal Info:</legend>
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" name="name"><br><br>
+                    <label for="lname">Last Name: </label>
+                    <input type="text" id="lname" name="lname"><br><br>
+
+                    <label for="gender">Gender: </label><br>
+                    <input type="radio" id="male" name="gender" value="male">Male 
+                    <input type="radio" id="female" name="gender" value="female">Female 
+                    <input type="radio" id="other" name="gender" value="other">Other <br><br>
+
+                    <label for="gender">Date of Birth: </label><br>
+                    <input type="date" id="date" name="date"><br><br>
+
+                    <label for="email">Email: </label><br>
+                    <input type="Email" id="email" name="email">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Academic Info</legend>
+                    <label for="hsc">HSC Result: </label><br>
+                    <input type="text" id="hsc" name="hsc"><br><br>
+
+                    <label for="depart">Preferred Department: </label><br>
+                    <select id="dropdown" name="drop">
+                        <option id="op1" value="Select">-Select-</option>
+                        <option id="op2" value="Computer Science">Computer Science</option>
+                        <option id="op3" value="Electrical Engineering">Electrical Engineering</option>
+                        <option id="op4" value="Pharmacy">Pharmacy</option>
+                    </select><br><br>
+
+                    <label for="interest">Interest: </label><br>
+                    <input type="checkbox" id="coding" name="interest" value="male">Coding 
+                    <input type="checkbox" id="research" name="interest" value="female">Research
+                    <input type="checkbox" id="sports" name="interest" value="other">Sports <br><br>
+
+                    <label for="document">Upload Documents: </label><br>
+                    <input type="file" id="document" name="document" >
+                </fieldset>
+
+                <input type="submit" id="submit" name="submit" value="Submit">
+                <input type="reset" id="reset" name="reset" value="Reset">
+
+            </form>
+
+            
+                
+        </main>
+        <footer>Anay Sarker--a9sarker@gmail.com </footer>
+    </body>
+</html>

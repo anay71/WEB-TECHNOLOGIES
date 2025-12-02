@@ -1,0 +1,30 @@
+ *{
+       margin:0;
+       padding:0;
+       box-sizing:border-box;
+   }
+           
+ .modifyh{
+        background-color: lightcyan;
+        position: sticky;
+        top: 0;
+        border-bottom: 2px solid #ddd;
+        text-align:center;
+         width:100vw;
+     }
+           
+            
+nav a {
+        margin-left: 15px;  
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+            
+     }
+
+ .modifym{
+         margin:10px 400px 0px 300px;
+         padding:30px;
+         background-color:aqua;
+         border-radius:14px;
+        }

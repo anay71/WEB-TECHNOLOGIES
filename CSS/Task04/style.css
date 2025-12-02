@@ -1,0 +1,28 @@
+.divct{
+        height:350px;
+        width:300px;
+        display:inline-block;
+        background-color:lightcyan;
+        text-align:center;
+        padding:5px 0px 20px 0px;
+        margin:20px 20px 20px 20px;
+        vertical-align: top;
+        }
+.buy{
+        background-color:blue;
+        padding:4px;
+        color: #dff0e3;
+        font-weight: bold;
+    }
+
+.divct:hover{
+            outline: 2px solid #007bff;
+            outline-offset: 5px;
+            }
+.buy:hover{
+            background-color: darkblue;
+          }
+
+.price {
+        color: rgb(115, 177, 23);
+       }

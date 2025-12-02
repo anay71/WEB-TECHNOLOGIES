@@ -1,0 +1,28 @@
+  #box1,#box2,#box3{
+        height:140px;
+        width: 180px;
+        font-size: 22px;
+        font-weight: bold;
+}
+#box1{
+    position:absolute;
+    background-color:rgb(255, 0, 17);
+    z-index:20;
+    top:50px;
+    left:70px;
+}
+ #box2{
+    position:absolute;
+    background-color:rgb(0, 119, 255);
+    z-index:25;
+    top:100px;
+    left:130px;
+}
+#box3{
+    position:absolute;
+    background-color:rgb(11, 93, 8);
+    z-index:30;
+    top:135px;
+    left:170px;
+}
+      

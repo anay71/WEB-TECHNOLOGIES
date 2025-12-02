@@ -1,0 +1,35 @@
+
+body{
+        font-family: Arial, sans-serif;
+        background: #f3f3f3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+ img{
+        border-radius: 50%;
+    }
+
+.all{
+        position:relative;
+        text-align:center;
+        width: 300px;
+        height:250px;
+        background-color:lightcyan;
+        padding:12px;
+        border-radius:12px;
+        box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    }
+
+.online{
+        display:inline-block;
+        width:57px;
+        position:absolute;
+        background-color:green;
+        top: 10px;
+        right: 20px;
+        color:white;
+        border-radius: 15px;
+    }
+        

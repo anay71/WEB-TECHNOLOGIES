@@ -1,0 +1,26 @@
+#image{
+    display: block;
+    border-radius:8px;
+    width:300px;
+    height:280px;
+   margin: auto;
+ 
+}
+
+#profileBox{
+    padding:10px;
+    border:3px solid black;
+    margin:auto;
+    width:600px;
+    height:550px;
+    font-size:1.2em;
+    background-color:#E3F2FD;
+}
+
+.hmf{
+    margin-bottom:40px;
+    margin-top:10px;
+}
+#header,#footer{
+    text-align:center;
+}

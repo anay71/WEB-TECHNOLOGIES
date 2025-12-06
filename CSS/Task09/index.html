@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS LabTask-09</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        #sidebar{
+            display:inline-block;
+            width:20%;
+            height:35%;
+            border:3px solid black;
+            padding:16px;
+             background-color: lavender;
+        }
+        #maincontent{
+            display:inline-block;
+            width:60%;
+            height:300px;
+            border:3px solid black;
+            padding:4px;
+             background-color: antiquewhite;
+        }
+        #advertisement{
+            display:inline-block;
+            width:20%;
+             height:200px;
+            border:3px solid black;
+            padding:18px;
+            background-color: powderblue;
+        }
+        #sidebar, #maincontent, #advertisement {
+            vertical-align: top;
+        }
+        #para{
+            font-size:1.4em;
+        }
+    </style>
+</head>  
+<body>
+    <header></header>
+    <main>
+        <div id="sidebar">
+            <h2>Categories</h2>
+            <p>World News</p>
+            <p>Sports</p>
+            <p>Technology</p>
+            <p>Entertainment</p>
+        </div><div id="maincontent">
+            <h1>Advanced Technology Insights</h1>
+            <p id="para"><strong>Tech Integration:</strong> New digital platforms, AI-driven monitoring systems, and real-time emission-tracking tools are transforming how energy companies report, manage, and reduce carbon output. 
+                These innovations support greater transparency and faster decision-making across the climate and finance sectors.</p>
+
+        </div><div id="advertisement">
+            <h2>Advertisement</h2>
+            <p>Buy the latest tech gadgets!</p>
+            <p>Sponsored Ads appear here.</p>
+        </div>
+
+    </main>
+    <footer></footer>
+</body>
+</html>

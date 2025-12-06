@@ -1,0 +1,52 @@
+
+#greeting{
+    text-align:center;
+}
+
+
+
+#nav{
+    display:inline-block;
+    font-size:1.5em;
+    text-decoration: none;
+    
+}
+
+#btn{
+    display:inline-block;
+    position:absolute;
+    right:10px;
+
+}
+
+#para1{
+    font-size:1.7em;
+}
+
+.projectTitle{
+
+    font-size:2em;
+}
+
+#projectPara{
+    font-size:1.5em;
+}
+
+#nameL,#emailL,#messageL{
+    font-size:1.5em;
+}
+#div1{
+    margin-top:30px;
+     padding-left:20px;
+    border:4px solid black;
+}
+#div2{
+    margin-top:30px;
+     padding-left:20px;
+    border:4px solid black;
+}
+#div3{
+    margin-top:30px;
+    padding-left:20px;
+    border:4px solid black;
+}

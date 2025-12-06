@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS task-09</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+<body id="body">
+    <header>
+        <nav id="nav">
+            <a href="#" onclick="showDiv1()"><b>About</b></a>
+            <a href="#" onclick="showDiv2()"><b>Project</b></a>
+            <a href="#" onclick="showDiv3()"><b>Contact</b></a>
+        </nav>
+        <button id="btn">Dark Mode</button>
+    </header>
+
+    <main>
+        <h1 id="greeting"></h1>
+        <div id="div1">
+            <h1>About Me</h1>
+            <p id="para1">Hello! I am Anay Sarker, a Computer Science student at AIUB with a strong passion for software development.
+                I enjoy solving complex problems and applying algorithmic thinking to build efficient, scalable solutions.
+                I actively explore modern technologies, continuously improve my skills, and focus on writing clean, optimized code. 
+                I am eager to contribute to real-world projects where I can learn, collaborate, and add value through both technical ability and a growth mindset.</p>
+        </div>
+
+        
+        <div id="div2" style="display:none;">
+            <ul>
+                <li><b class="projectTitle">Basic-Library-Management-System</b>
+                    <p id="projectPara">The Basic Library Management System is a simple application designed to manage book records, user details, and borrowing transactions efficiently within a library.</p>
+                    <p><b>GitHub Link:</b> 
+                        <a href="https://github.com/shamiul278/Basic-Library-Management-System">
+                        <b>GitHub Repo</b></a></p>
+                </li>
+
+                <li><b class="projectTitle">Historical Place in Bangladesh</b>
+                    <p id="projectPara">This project is an OpenGL and GLUT-based graphical simulation that visually represents a historical place in Bangladesh through interactive and animated scenes.</p>
+                    <p><b>GitHub Link:</b> 
+                        <a href="https://github.com/TutulMajumder/Historical_Place_in_Bangladesh">
+                        <b>GitHub Repo</b></a></p>
+                </li>
+            </ul>
+        </div>
+
+      
+        <div id="div3" style="display:none;">
+            <h1>Emergency Contact</h3>
+
+            
+            <form method="POST">
+
+                <label for="name" id="nameL"><b>Name:</b></label>
+                <input type="text" id="nameC">
+                <span id="nameSpan"></span><br><br>
+
+                <label for="email" id="emailL"><b>Email:</b></label>
+                <input type="text" id="emailC">
+                <span id="emailSpan"></span><br><br>
+
+                <label for="message" id="messageL"><b>Message:</b></label>
+                <textarea id="messageC" placeholder="Enter your message here..."></textarea>
+                <span id="messageSpan"></span><br><br>
+
+                
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </div>
+
+        
+
+    </main>
+</body>
+</html>
